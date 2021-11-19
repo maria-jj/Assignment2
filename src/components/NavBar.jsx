@@ -3,7 +3,7 @@ class NavBar extends Component {
     render() {
         return (
             <div className="navbar">
-                <a>All</a>
+                <a href="/">All</a>
                 <div className="nav-categories">
                     <a href="#">Amazon Basics</a>
                     <a href="#">Buy Again</a>

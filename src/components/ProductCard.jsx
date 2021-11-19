@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import {Button} from './Button';
 
 class ProductCard extends Component {
     render() {
@@ -22,7 +23,12 @@ class ProductCard extends Component {
                                         <li>Dimensions : {this.props.product.details.Dimensions}</li>
                                         <li>Best Sellers Rank : {this.props.product.details.rank}</li>
                                         <li>Customer Reviews : {this.props.product.details.reviews}</li>
+                                        <Button text="Add to cart" type="primary" isDisabled={false} action={"added to cart"}/> 
+                                        <Button text="Buy now" type="secondary" isDisabled={false} action={"Buy Now"}/> 
+
+
                                     </ul>
+
 
                                 ) : (
                                     <ul>
@@ -34,6 +40,9 @@ class ProductCard extends Component {
                                         <li>Human Interface Input : {this.props.product.details.HII}</li>
                                         <li>CPU Manufacturer : {this.props.product.details.CPU}</li>
                                         <li>Color : {this.props.product.details.Color}</li>
+                                        <Button text="Add to cart" type="primary" isDisabled={false} action={"added to cart"}/> 
+                                        <Button text="Buy now" type="secondary" isDisabled={false} action={"Buy Now"}/> 
+
                                     </ul>
                             )
                         }

@@ -27,7 +27,7 @@ class Header extends Component {
                     <img src={search} alt="search"/>
                 </form>
                 <select className="lang">
-                    <option value="us" defaultValue>us</option>
+                    <option value="en" defaultValue>en</option>
                     <option value="fr">fr</option>
                 </select>
                 <a className="returns">
