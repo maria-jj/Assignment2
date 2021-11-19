@@ -1,0 +1,23 @@
+.product-page {
+
+}
+
+.product-card {
+    display: flex;
+    padding: 3rem 5rem;
+    background-color: white;
+    width: 65%;
+    margin: 5rem auto 0;
+    justify-content: space-evenly;
+}
+
+.product-card img {
+    object-fit: contain;
+    width: 50%;
+    max-height: 25rem;
+}
+
+.product-card .details {
+   margin-left: 2rem;
+    width: 50%;
+}

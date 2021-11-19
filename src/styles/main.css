@@ -1,0 +1,10 @@
+@import "header.css";
+@import "navbar.css";
+@import "products.css";
+@import "product-card.css";
+@import "footer.css";
+
+body {
+    margin: 0;
+    background-color: #EAEDED;
+}

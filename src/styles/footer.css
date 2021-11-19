@@ -1,0 +1,52 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+.footer1 {
+    background-color: #232F3E;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    padding: 3rem 10%;
+}
+
+.footer1 .footer1-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer1 .footer1-content div {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer1 .footer1-content div a {
+    color: white;
+    text-decoration: none;
+    margin: 0.25rem 0;
+}
+
+.footer1 .footer1-content div a:hover {
+    text-decoration: underline;
+
+}
+
+.copyright {
+    padding: 1.5rem 0;
+    color: #fff;
+    background-color: #131A22;
+    display: flex;
+    justify-content: center;
+}
+
+.copyright a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+.copyright a:hover {
+    cursor: pointer;
+}

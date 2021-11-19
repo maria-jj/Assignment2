@@ -1,0 +1,27 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #232f3e;
+    max-width: 100%;
+    padding: 0.5rem 1rem;
+    justify-content: space-between;
+}
+
+.nav-categories {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar a{
+    color: #ffffff;
+    border: 1px #232f3e solid;
+    border-radius: 5px;
+    padding: 0.5rem;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    cursor: pointer!important;
+    border-color: #ffffff;
+}

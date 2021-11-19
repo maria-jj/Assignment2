@@ -1,0 +1,27 @@
+.category {
+    padding: 3rem 10% 0;
+
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 1rem 0;
+    align-items: center;
+}
+
+.products .product {
+    width: 20%;
+    padding: 0 1rem;
+}
+
+.products .product:hover {
+    cursor: pointer;
+}
+
+.products .product img{
+    width: 100%;
+    object-fit: contain;
+    max-height: 20rem;
+}
